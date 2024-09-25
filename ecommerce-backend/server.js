@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const productsRouter = require('./routes/products');
+const productsRouter = require('./ecommerce-backend/routes/products');
 
 dotenv.config();
 
